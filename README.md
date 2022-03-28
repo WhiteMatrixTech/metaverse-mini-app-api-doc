@@ -25,7 +25,7 @@ None
 ```
 {
    "contractId":"string",//合约地址
-   "tokenId":"string",//token编号
+   "tokenId": integer,//token编号
    "productId":"string",//产品码
    "image":"string",//图片地址
    "animationUrl":"string",//动画地址，可以是glb/gif/mp4等
