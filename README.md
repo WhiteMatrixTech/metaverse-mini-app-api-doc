@@ -33,6 +33,10 @@ None
 }
 ```
 
+image example: https://d32ju6eqdh546d.cloudfront.net/riverestate/RiverEstate_0196.png
+
+animationUrl example: https://d32ju6eqdh546d.cloudfront.net/riverestate/RiverEstate_0196.glb
+
 ## 购买一个token
 
 #### Request Endpoint:
