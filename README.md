@@ -28,6 +28,7 @@ None
    "tokenId":"string",//token编号
    "productId":"string",//产品码
    "image":"string",//图片地址
+   "animationUrl":"string",//动画地址，可以是glb/gif/mp4等
    "owner":"string"//持有人
 }
 ```
