@@ -14,7 +14,7 @@ None
 
 #### Request Body:
 
-```
+```json
 {
   "txnHash":"string"
 }
@@ -48,7 +48,7 @@ x-api-key: {apiKey}
 
 #### Request Body:
 
-```
+```json
 {
   "productId":"string"
 }
@@ -56,8 +56,10 @@ x-api-key: {apiKey}
 
 #### Response Body:
 
-```
-None
+```json
+{
+    "txnHash":"string"
+}
 ```
 
 ## 
