@@ -9,7 +9,7 @@ POST {endpoint}
 ```
 
 #### Headers:
-一个用于外部访问的key，未携带key访问此endpoint返回403
+一个用于外部访问的key，未携带key访问此endpoint返回401
 ```
 X-API-KEY
 ```
