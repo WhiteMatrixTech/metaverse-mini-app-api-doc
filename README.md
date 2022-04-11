@@ -1,38 +1,40 @@
-## 根据交易hash查询token
+## 导入NFT元数据
+
+该接口应当具有一定的并发量，后期通过脚本或者aws函数调用来导入数据
 
 #### Request Endpoint:
 
 ```
-GET {endpoint}/blockchain/v1/token
+POST {endpoint}
 ```
 
 #### Headers:
-
+一个用于外部访问的key，未携带key访问此endpoint返回403
 ```
-None
+X-API-KEY
 ```
 
 #### Request Body:
 
-```json
+```
 {
-  "txnHash":"string"
+  "url": "sting",
+  "txn_hash": "string",
+  "product_code": "string",
+  "collection_id": "string",
+  "level": "sting",
+  "type": int,
+  "image": "string",
+  "price": float
 }
 ```
 
 #### Response Body:
 
 ```
-{
-   "contractId":"string",//合约地址
-   "tokenId": integer,//token编号
-   "productId":"string",//产品码
-   "image":"string",//图片地址
-   "animationUrl":"string",//动画地址，可以是glb/gif/mp4等
-   "owner":"string"//持有人
-}
+NONE
 ```
 
 image example: https://d32ju6eqdh546d.cloudfront.net/riverestate/RiverEstate_0196.png
 
-animationUrl example: https://d32ju6eqdh546d.cloudfront.net/riverestate/RiverEstate_0196.glb
+animation image example: https://d32ju6eqdh546d.cloudfront.net/riverestate/RiverEstate_0196.glb
