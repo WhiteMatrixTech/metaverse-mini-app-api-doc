@@ -19,7 +19,10 @@ X-API-KEY
 ```
 {
   "url": "sting",
-  "txn_hash": "string",
+  "txn_hash": [
+        "string1",
+        "string2"
+    ],
   "product_code": "string",
   "collection_id": "string",
   "level": "sting",
